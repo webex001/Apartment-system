@@ -12,6 +12,7 @@ import { auth } from '../firebase'
 import { onAuthStateChanged, signOut } from 'firebase/auth'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import Jambutron from '../components/Jambutron';
 
 export default function Home({exploreData, cardsData}) {
   return (
@@ -23,6 +24,7 @@ export default function Home({exploreData, cardsData}) {
 
     <Header/>   
     <Banner/>
+    <Jambutron />
 
     <main className="max-w-7xl mx-auto px-8 sm:px-16">
       <section className="pt-6">
