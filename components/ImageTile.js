@@ -82,7 +82,7 @@ export default function ImageTile() {
   
                 <a
                   href="#"
-                  className="inline-block text-center bg-red-500 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-red-600"
+                  className="inline-block text-center bg-red-400 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-red-500"
                 >
                   Shop Collection
                 </a>
